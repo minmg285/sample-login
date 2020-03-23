@@ -18,11 +18,13 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     loginBtn: {
       marginTop: theme.spacing(2),
-      flexGrow: 1
+      flexGrow: 1,
+      background: '#430736',
+      color: '#fff'
     },
     header: {
       textAlign: 'center',
-      background: '#212121',
+      background: '#430736',
       color: '#fff'
     },
     card: {
@@ -92,7 +94,7 @@ const Login = () => {
     <React.Fragment>
       <form className={classes.container} noValidate autoComplete="off">
         <Card className={classes.card}>
-          <CardHeader className={classes.header} title="GWE Admin Login" />
+          <CardHeader className={classes.header} title="GWE Admin Panel" />
           <CardContent>
             <div>
               <TextField
